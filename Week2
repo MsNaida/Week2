@@ -1,0 +1,49 @@
+package com.naidachang.week2;
+
+public class Week2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean isHotOutside = true;
+		boolean isWeekday = false;
+		double hasMoneyInPocket = 20;
+				
+		double costOfMilk = 3.25;
+		double moneyInWallet = 55;
+		int thirstLevel = 6;
+
+		//shouldByIcecream this should be true if it is hot outside and there is money in your pocket
+		
+		if(isHotOutside == true && hasMoneyInPocket >= 7){
+			System.out.println("Should buy ice cream.");
+			} else {
+			System.out.println("Can't get ice cream today.");
+		}
+				
+		//willGoSwimming this should be true if it is hot outside and it is not a weekday
+		
+		if(isHotOutside == true && isWeekday == false){
+			System.out.println("Will go swimming!");
+		} else {
+			System.out.println("Can't go swimming today.");
+		}
+		
+		//isAGoodDay this should be true if it is hot outside, there is money in your pocket, and it is not a weekday
+		
+		if(isHotOutside == true && hasMoneyInPocket >= 7 && isWeekday == false){
+			System.out.println("Is a good day!");
+			} else {
+			System.out.println("Wish it was the weekend.");
+			}
+				
+		
+		//willBuyMilk this should be true if it is hot outside, and thirstLevel is greater than or equal to 3, and moneyInWallet is greater than or equal to 2 times the cost of milk.
+		
+			if(isHotOutside == true && thirstLevel >= 3 && moneyInWallet >= 2*costOfMilk){
+			System.out.println("Will buy milk");
+			} else {
+			System.out.println("Won't buy milk today.");
+			}
+	}
+
+}
