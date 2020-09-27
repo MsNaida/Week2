@@ -8,19 +8,6 @@ Creativity	Student solved the problems presented in the assignment using creativ
 Completeness	All requirements of the assignment are complete.	25
 
 Instructions: In Eclipse, or an IDE of your choice, write the code that accomplishes the objectives listed below. Ensure that the code compiles and runs as directed. Take screenshots of the code and of the running program (make sure to get screenshots of all required functionality) and paste them in this document where instructed below. Create a new repository on GitHub for this week’s assignments and push this document, with your Java project code, to the repository. Add the URL for this week’s repository to this document where instructed and submit this document to your instructor when complete.
-Coding Steps:
-1.	What do each of the following Boolean expressions evaluate to?
-Boolean Expression	Answer
-true && false	False
-true || false	True
-false && false	True
-true && (false || true)	True
-false || (true && false)	False
-false || 1 < 5	True
-5 >= 4 && 1 > 3	False
-10 < 4 || 1 > 4	False
-12 >= 2 && 1 < 24	True
-“Hello”.charAt(0) == ‘h’	
 
 2.	In Eclipse, create the following Boolean variables and choose what values they hold:
 a.	isHotOutside
